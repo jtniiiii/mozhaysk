@@ -1,5 +1,8 @@
-body, h1 {
+body, h1, h2 {
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    Font family: Inte;
+    Font style: Regular;
 }
 
 .mian {
@@ -19,9 +22,6 @@ body, h1 {
 }
 
 .hero_text {
-    font-family: 'Inter', sans-serif;
-    Font family: Inte;
-    Font style: Regular;
     Font size: 65px;
     Line height: 79px;
     color: #FFFFFF;
@@ -51,4 +51,19 @@ body, h1 {
 .container ul {
     list-style-type: none;
     padding: 0;
+}
+
+.hotline_container {
+	background-color: #6B4F6E;
+	display: flex;
+	justify-content: center;
+}
+
+.hotline_item {
+	display: inline-block;
+	background-color: #8F7392;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: 40px;
+	padding: 10px 20px;
 }
